@@ -7,6 +7,9 @@ function calculate() {
   if ((firstValue + secondValue) <= thirdValue || (firstValue + thirdValue) <= secondValue || (secondValue + thirdValue) <= firstValue) {
     alert("this is not a triangle");
   }
+  if ((firstValue === secondValue) && (firstValue === thirdValue) && (thirdValue === secondValue)) {
+    alert("this is an equilateral");
+  }
 
 
 }
