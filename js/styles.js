@@ -7,9 +7,11 @@ function calculate() {
   if ((firstValue + secondValue) <= thirdValue || (firstValue + thirdValue) <= secondValue || (secondValue + thirdValue) <= firstValue) {
     alert("this is not a triangle");
   }
-  if ((firstValue === secondValue) && (firstValue === thirdValue) && (thirdValue === secondValue)) {
+  else if ((firstValue === secondValue) && (firstValue === thirdValue) && (thirdValue === secondValue)) {
     alert("this is an equilateral");
   }
-
+  else if ((firstValue === secondValue) && (firstValue !== thirdValue) || (secondValue === firstValue) && (secondValue !== thirdValue) || (thirdValue === firstValue) && (thirdValue !== secondValue)) {
+    alert("this is an isosceles");
+  }
 
 }
