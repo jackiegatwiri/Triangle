@@ -1,0 +1,17 @@
+html,body {
+  margin : 0;
+
+}
+.one {
+    text-align: center;
+    font-family: fantasy;
+    background-color: #0278ae;
+    height: 250px;
+}
+.one h1 {
+  padding-bottom: 50px;
+}
+.two {
+  height: 750px;
+  background-color: #51adcf;
+}
