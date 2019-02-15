@@ -13,5 +13,7 @@ function calculate() {
   else if ((firstValue === secondValue) && (firstValue !== thirdValue) || (secondValue === firstValue) && (secondValue !== thirdValue) || (thirdValue === firstValue) && (thirdValue !== secondValue)) {
     alert("this is an isosceles");
   }
-
+  else {
+    alert("this is a scalene");
+  }
 }
