@@ -10,22 +10,42 @@
 <body>
   <script src="js/styles.js">
   </script>
-
-  <div class="one">
-    <h1>Triangle Tracker</h1>
-    <p>Got any issues on understanding the types of a triangle? Enter any values on the three sides of a triangle to know whether it's an isosceles, equilateral, scalene or not a triangle at all </p>
+  <div class="image">
+    <div class="text">
+      <img id="image1" src="triangle.png" alt="image">
+      <h3>Triangle Tracker Website for Creative pros</h3>
+      <h1>More than just a website</h1>
+      <p><strong>Keep Track of Your Triangles. Build New Triangles. Do It Yourself.</strong></p>
+      <div class="box">
+        <h3><strong>GET STARTED</strong></h3>
+      </div>
+      <p><b>15 Days Free Trial. No Credit Card Required</b></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="form">
+      <form>
+        <h1> TRIANGLE TRACKER </h1>
+        <p>Please fill out the form with numbers to determine the shape of your triangle</p>
+        First Number:<br>
+        <input id="firstValue" type="text" name="firstValue"> <br>
+        Second Number:<br>
+        <input id="secondValue" type="text" name="secondValue"> <br>
+        Third Number:<br>
+        <input id="thirdValue" type="text" name="thirdValue"> <br>
+        <input id="submit" type="button" value="Submit" onclick="calculate()"> <br>
+      </form>
+    </div>
+  </div>
+  <div class="column">
+    <h3>Connect with us:</h3>
+    <p>For support or any questions: <br>Email us at <span id="email">jaciegatatz@gmail.com</span></p>
+    <h3>Kenya Nairobi</h3>
+    <p>501 Ruaka Road, Suite 105 <br> Nairobi, Delaware 19067 <br> KENYA</p>
+    <h3>Pixpa USA</h3>
+    <p>B-222, First Floor,<br> Okhla Industrial Area, Phase-1 <br> New Dehi IN-110020 </p>
   </div>
 
-  <div class="two">
-    <form>
-      First Number:<br>
-      <input id="firstValue" type="text" name="firstValue"> <br>
-      Second Number:<br>
-      <input id="secondValue" type="text" name="secondValue"> <br>
-      Third Number:<br>
-      <input id="thirdValue" type="text" name="thirdValue"> <br>
-      <input type="button" value="Submit" onclick="calculate()"> <br>
-    </form>
-  </div>
 </body>
+
 </html>

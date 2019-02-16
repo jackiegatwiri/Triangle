@@ -1,17 +1,87 @@
-html,body {
-  margin : 0;
+html, body {
+  margin: 0;
+  background-color: #d2d4d6;
+}
 
+.image {
+  background-image: url("https://images.unsplash.com/photo-1550160770-ea8555a5b375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  position: relative;
+  background-position: 50% 50%;
+  height: 400px;
+  background-size: cover;
+  /*all of this constitutes ways of creating a background image on a division*/
+  background-repeat: no-repeat;
 }
-.one {
-    text-align: center;
-    font-family: fantasy;
-    background-color: #0278ae;
-    height: 250px;
+
+.text {
+  padding: 4px;
+  color: white;
 }
-.one h1 {
-  padding-bottom: 50px;
+
+#image1 {
+  float: left;
+  width: 5%;
+  border-radius: 50%;
 }
-.two {
-  height: 750px;
-  background-color: #51adcf;
+
+.text h1 {
+  clear: both;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 50px;
+}
+
+.text p {
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  width: 10%;
+  height: 10%;
+  color: black;
+  margin: auto;
+  border: 3px;
+  padding: 10px;
+}
+
+.box h3 {
+  text-align: center;
+}
+
+.form {
+  float: left;
+  padding-left: 5%;
+}
+
+#firstValue {
+  width: 50%;
+  padding-top: 20px;
+}
+
+#secondValue {
+  width: 50%;
+  padding-top: 20px;
+}
+
+#thirdValue {
+  width: 50%;
+  padding-top: 20px;
+}
+
+#submit {
+  margin-top: 10px;
+  width: 13%;
+  background-color: #c5d200;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.column {
+  width: 700px;
+  float: left;
+}
+
+#email {
+  color: #c5d200;
 }
