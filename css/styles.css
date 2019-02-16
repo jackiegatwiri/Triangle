@@ -1,10 +1,10 @@
 html, body {
   margin: 0;
-  background-color: #d2d4d6;
+  background-color: #e4e4e4;
 }
 
 .image {
-  background-image: url("https://images.unsplash.com/photo-1550160770-ea8555a5b375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-image: url("https://images.unsplash.com/photo-1550060542-3f67a27cb751?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=643&q=80");
   position: relative;
   background-position: 50% 50%;
   height: 400px;
@@ -72,7 +72,7 @@ html, body {
 #submit {
   margin-top: 10px;
   width: 13%;
-  background-color: #c5d200;
+  background-color: #612147;
   color: white;
   padding-bottom: 10px;
 }
@@ -83,5 +83,5 @@ html, body {
 }
 
 #email {
-  color: #c5d200;
+  color: #951555;
 }
