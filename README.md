@@ -37,21 +37,19 @@ https://github.com/jackiegatwiri/Triangle
 . If two of the sides are less than or equal to the other side. Then it is not a triangle at all <br>
 
 Behavior
-Our program should handle: <br>
-
-Output Example
-3 sides are equal
+Our program should handle: <br> 
+Output Example <br>
+3 sides are equal, 
 5
 5
 5
 True <br>
-
-2 sides are equal
+2 sides are equal, 
 5
 5
 7
 True <br>
-None of the sides are equal
+None of the sides are equal, 
 5
 8
 5
