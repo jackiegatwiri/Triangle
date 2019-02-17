@@ -4,14 +4,14 @@ Triangle Tracker
 The above application helps a user to determine the types of a triangle by entering values of each side}, {17/2/2019}
 
 ## Author Information
-Jackline Gatwiri
+Jackline Gatwiri <br>
 Email: Jaciegatz@gmail.com
 ## Description
 A webapp using Javascript to identify whether a triangle is an equalateral, isosceles, scaline, or whether the the given measurements do not create a triangle at all. The app helps to identify the type of a triangle by prompting the user to fill in the sides value with numbers then provides an alert message showing the type of a triangle after the user submits his details.
 ## Setup/Installation Requirements
 * Clone this repo to your desktop using your terminal and install js.node to run your javascript.
 * You might want to look into ways of linking yout html and javascript <br>
-Scripts to be run <br>
+* Scripts to be run <br>
 function calculate() {
   var firstValue = parseInt(document.getElementById("firstValue").value);
   var secondValue = parseInt(document.getElementById("secondValue").value);
@@ -30,23 +30,22 @@ function calculate() {
 ## Link
 https://github.com/jackiegatwiri/Triangle 
 ## BDD
-Specifications
-. If the values of each side are equal, it is an equalateral
-. If two sides are equal, it is an isosceles
-. If none of the sides are equal, it is a scalene
-. ff two of the sides are less than or equal to the other side. Then it is not a triangle at all <br>
+* Specifications <br>
+. If the values of each side are equal, it is an equalateral <br>
+. If two sides are equal, it is an isosceles <br>
+. If none of the sides are equal, it is a scalene <br>
+. If two of the sides are less than or equal to the other side. Then it is not a triangle at all <br>
 
 Behavior
-Our program should handle:
-Side One input example
-Side Two input example
-Side Three input example
+Our program should handle: <br>
+
 Output Example
 3 sides are equal
 5
 5
 5
 True <br>
+
 2 sides are equal
 5
 5
@@ -65,7 +64,7 @@ True <br>
 
 
 ## Known Bugs
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue by including your search query and the expected result. <br>
 
 If you'd like to request a new function, feel free to do so by opening an issue. Please include sample queries and their corresponding results.
 ## Technologies Used
