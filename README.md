@@ -1,6 +1,6 @@
 # Project Name
 Triangle Tracker
-#### {Project Description}
+#### Project Description
 The above application helps a user to determine the types of a triangle by entering values of each side}, {17/2/2019}
 
 ## Author Information
@@ -27,14 +27,14 @@ function calculate() {
     alert("this is a scalene");
   }
 }
-##Link
+## Link
 https://github.com/jackiegatwiri/Triangle 
-##BDD
+## BDD
 Specifications
 . If the values of each side are equal, it is an equalateral
 . If two sides are equal, it is an isosceles
 . If none of the sides are equal, it is a scalene
-. ff two of the sides are less than or equal to the other side. Then it is not a triangle at all
+. ff two of the sides are less than or equal to the other side. Then it is not a triangle at all <br>
 
 Behavior
 Our program should handle:
@@ -46,22 +46,22 @@ Output Example
 5
 5
 5
-True
+True <br>
 2 sides are equal
 5
 5
 7
-True
+True <br>
 None of the sides are equal
 5
 8
 5
-True
+True <br>
 The sum of two sides is less than or equal to the the third side
 3
 3
 10
-True
+True <br>
 
 
 ## Known Bugs
@@ -69,8 +69,8 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 If you'd like to request a new function, feel free to do so by opening an issue. Please include sample queries and their corresponding results.
 ## Technologies Used
-The application uses CSS, JS and HTML
-use this HTML code to create a background image 
+The application uses CSS, JS and HTML <br>
+Use this HTML code to create a background image <br>
 .image {
   background-image: url("https://images.unsplash.com/photo-1550060542-3f67a27cb751?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=643&q=80");
   position: relative;
