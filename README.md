@@ -54,7 +54,7 @@ None of the sides are equal,
 8
 5
 True <br>
-The sum of two sides is less than or equal to the the third side
+The sum of two sides is less than or equal to the the third side, 
 3
 3
 10
