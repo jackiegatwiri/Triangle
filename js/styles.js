@@ -7,7 +7,7 @@ function calculate() {
     alert("this is not a triangle");
   } else if ((firstValue === secondValue) && (firstValue === thirdValue) && (thirdValue === secondValue)) {
     alert("this is an equilateral");
-  } else if ((firstValue === secondValue) && (firstValue !== thirdValue) || (secondValue === firstValue) && (secondValue !== thirdValue) || (thirdValue === firstValue) && (thirdValue !== secondValue)) {
+  } else if ((firstValue === secondValue) && (firstValue !== thirdValue) || (secondValue === thirdValue) && (secondValue !== firstValue) || (thirdValue === firstValue) && (thirdValue !== secondValue)) {
     alert("this is an isosceles");
   } else {
     alert("this is a scalene");
