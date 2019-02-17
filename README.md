@@ -28,7 +28,8 @@ function calculate() {
   }
 }
 ## Link
-https://github.com/jackiegatwiri/Triangle 
+https://github.com/jackiegatwiri/Triangle - github <br>
+https://jackiegatwiri.github.io/Triangle/ - actual project
 ## BDD
 * Specifications <br>
 . If the values of each side are equal, it is an equalateral <br>
