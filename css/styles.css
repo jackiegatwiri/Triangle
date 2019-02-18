@@ -7,15 +7,20 @@ html, body {
   background-image: url("https://images.unsplash.com/photo-1550060542-3f67a27cb751?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=643&q=80");
   position: relative;
   background-position: 50% 50%;
-  height: 400px;
+  height: 379px;
   background-size: cover;
   /*all of this constitutes ways of creating a background image on a division*/
   background-repeat: no-repeat;
+  padding-bottom: 0;
+
 }
 
 .text {
   padding: 4px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  border-bottom: 0;
 }
 
 #image1 {
@@ -78,7 +83,7 @@ html, body {
 }
 
 .column {
-  width: 700px;
+  width: 750px;
   float: left;
 }
 
